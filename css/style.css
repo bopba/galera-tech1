@@ -1,0 +1,106 @@
+body{
+    background-color: #c4c4c4;
+}
+ *{
+    box-sizing:  border-box;
+    }   
+    header{
+        background-color: #4B0082;
+        width: 100%;
+        padding: 20px;
+    }
+    header h1{
+        text-align: center;
+    }
+    nav{
+        background-color: #c4c4c4;
+        float: left;
+        width: 20%;
+    }
+    nav ul li{
+        list-style-type: none;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: black;
+        font-size: 26px;
+        line-height: 50px;
+        border-bottom: 2px solid #4B0082;
+        padding-bottom: 10px;
+    }
+    nav ul li a:hover{
+        color: #4B0082;
+    }
+    main{
+        background-color: #c4c4c4;
+        float: left;
+        width: 60%;
+        padding: 20px;
+    }
+    main p{
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 26px;
+    }
+    main p span{
+        color: purple;
+        font-style: italic;
+    }
+    aside{
+        background-color: #4B0082;
+        float: left;
+        width: 20%;
+        padding: 20px;
+        margin-top: 15px;
+        border-radius: 20px;
+        box-shadow: 5px 5px 8px black,5px 5px 8px rgb(0, 255, 242);
+        /* 1° valor é pros lados, 2° valor para cima ou para baixo, 3° desfoque*/
+        margin-bottom: 20px;
+        /* para descolar do footer */
+    }
+    aside p{ 
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 26px;
+    }
+    footer{
+        background-color:#4B0082;
+        float: left;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+    footer a{
+        color:blue
+    }
+    /* responsividade - ajustar a largura da tela */
+    @media only screen and (max-width:800px) {
+        aside{
+            width: 100%;
+        }
+        main{
+            width: 70%;
+            margin-left: 9%;
+        }
+        footer{
+            height: auto;
+            }
+            }
+        @media only screen and (max-width:600px) {
+            nav,
+            main,
+            aside {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+            footer {
+                height: auto;
+                }
+                }
+                .azul{
+                    color: blue;
+                }
+                .vermelho{
+                    color: red;
+                }
+                
